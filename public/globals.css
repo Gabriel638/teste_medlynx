@@ -1,0 +1,44 @@
+img[src="/logo.png"] {
+    height: 5rem;
+}
+
+a.navbar-brand {
+    text-align: center;
+    width: 100%;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: .6rem;
+    column-gap: 1.2rem; */
+    grid-gap: .8rem
+    
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    color: black;
+}
+
+@media(min-width: 590px) { /* SM BREAKPOINT */
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 768px) { /* MD BREAKPOINT */
+    .grid.grid-c3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 992px) { /* LG BREAKPOINT */
+
+}
+
+@media(min-width: 1200px) { /* XL BREAKPOINT */
+
+}
