@@ -1,8 +1,8 @@
 # teste_medlynx
 
 ## Rodando o projeto !
-1- Clicar em Code no canto superior direito(botão verde escrito "Code").
-2- Fazer o Dowload em zip
+1. Clicar em Code no canto superior direito(botão verde escrito "Code")
+2. Fazer o Dowload em zip
 3- Extrair o arquivo baixado
 4- Abrir o arquivo no seu editor de código
 5- Abra o terminal na pasta do projeto e digite: `npm install`
